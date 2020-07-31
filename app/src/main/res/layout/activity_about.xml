@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".AboutActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:padding="6dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_margin="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_android_24"
+            android:tint="#1962EA"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Binners Browser"
+                android:textSize="15sp"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/colorSearch"
+                android:layout_marginLeft="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="version 1.0"
+                android:textSize="13sp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorSearch"
+                android:layout_marginLeft="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:padding="6dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_margin="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_account_box_24"
+            android:tint="#1962EA"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desarrollador "
+                android:textSize="15sp"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/colorSearch"
+                android:layout_marginLeft="8dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="howen flores"
+                android:textSize="13sp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorSearch"
+                android:layout_marginLeft="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:padding="6dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_margin="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_web_24"
+            android:tint="#1962EA"/>
+        <LinearLayout
+            android:id="@+id/btnWeb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sitio Web"
+                android:textSize="15sp"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/colorSearch"
+                android:layout_marginLeft="8dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://spacehowen.com"
+                android:textSize="13sp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorSearch"
+                android:layout_marginLeft="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:padding="6dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_margin="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_mail_24"
+            android:tint="#1962EA"/>
+        <LinearLayout
+            android:id="@+id/btnMail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contacto"
+                android:textSize="15sp"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/colorSearch"
+                android:layout_marginLeft="8dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="support@spacehowen.com"
+                android:textSize="13sp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorSearch"
+                android:layout_marginLeft="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:padding="6dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:layout_margin="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_adb_24"
+            android:tint="#1962EA"/>
+        <LinearLayout
+            android:id="@+id/btnCode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open Source"
+                android:textSize="15sp"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/colorSearch"
+                android:layout_marginLeft="8dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://github.com/spacehowen/binners-browser"
+                android:textSize="13sp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorSearch"
+                android:layout_marginLeft="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
