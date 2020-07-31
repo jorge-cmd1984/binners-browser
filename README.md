@@ -1,2 +1,2 @@
 # binners-browser
- navegador anonimo para poder binear con seguridad
+ navegador anónimo para poder binear con seguridad
